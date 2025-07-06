@@ -66,8 +66,3 @@ export default tseslint.config([
     },
   },
 ])
-```
-<<<<<<< HEAD
-=======
->>>>>>> 64afcc9 (Initial commit)
->>>>>>> e703690 (Prepare for deployment)
