@@ -10,16 +10,19 @@ const projects: Project[] = [
 		title: "Project One",
 		description: "A web app for real-time chat.",
 		link: "https://example.com/project-one",
+    image: "/portfolio/images/project1.jpg"
 	},
 	{
 		title: "Project Two",
 		description: "An API built with Node.js.",
 		link: "https://example.com/project-two",
+    image: "/portfolio/images/project2.jpg"
 	},
 	{
 		title: "Project Three",
 		description: "An API built with Node.js.",
 		link: "https://example.com/project-two",
+    image: "/portfolio/images/project3.jpg"
 	},
 ];
 
