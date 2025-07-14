@@ -18,7 +18,9 @@ export function Navbar({ dark, toggleDark }: NavbarProps) {
         <h1 className="text-xl font-bold text-gray-900 dark:text-white">John Doe</h1>
 
         <div className="flex items-center gap-4">
-          <button onClick={toggleDark} aria-label="Toggle dark mode">
+          <button 
+          className="md:hidden"
+          onClick={toggleDark} aria-label="Toggle dark mode">
             {dark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
           </button>
 
@@ -41,6 +43,10 @@ export function Navbar({ dark, toggleDark }: NavbarProps) {
               {id.charAt(0).toUpperCase() + id.slice(1)}
             </a>
           ))}
+
+          <button onClick={toggleDark} aria-label="Toggle dark mode">
+            {dark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+          </button>
         </nav>
       </div>
 
